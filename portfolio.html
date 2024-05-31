@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+        header{
+            width: 100%;
+            height: auto;
+            background-color: rgba(39, 17, 37, 1);
+            padding-bottom: 150px;
+        }
+        header nav{
+            width: 100%;
+            height: auto;
+            background-color: rgba(2, 6, 23, 1);
+        }
+        header nav .navbar{
+            max-width: 800px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 30px 0px;
+        }
+        header nav .navbar .logo h1{
+            font-family: 'Lexend Deca';
+            font-size: 35px;
+            font-weight: 600;
+            color: white;
+        }
+        header nav .navbar ul{
+            display: flex;
+            align-items: center;
+            
+        }
+        
+        header nav .navbar ul li  a{
+            font-family: 'Lexend Deca';
+            font-size: 20px;
+            color: white;
+            font-weight: 400;
+        }
+        header nav .navbar li i{
+            color: white;
+        }
+        header .center {
+            padding-top: 100px;
+            max-width: 1000px;
+            margin: auto;
+            height: auto;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        header .center .box{
+            width: auto;
+            height: auto;
+        }
+        header .center .box img{
+            width: 100%;
+            height: auto;
+        }
+        header .center .box img:hover{
+            opacity: 0.8;
+            transition: 0.4s;
+            border-radius: 10px;
+            /* rotate: 360deg; */
+            transform: scale(1.1);
+        }
+        @media screen and (max-width: 850px) {
+            header nav .navbar{
+                padding: 20px 20px;
+            }
+            header .center{
+                padding: 50px 20px;
+            }
+        }
+        @media screen and (max-width: 550px) {
+            
+        }
+        @media screen and (max-width: 420px) {
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo"><h1>Portfolio</h1></div>
+                <ul>
+                    <li><i class="fa-solid fa-arrow-left"></i><a href="./index.html">Back to main page</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="center">
+            <div class="box"><a href=""><img src="./photos/image3.png" alt=""></a></div>
+            <div class="box"><a href=""><img src="./photos/image3.png" alt=""></a></div>
+            <div class="box"><a href=""><img src="./photos/image3.png" alt=""></a></div>
+            <div class="box"><a href=""><img src="./photos/image3.png" alt=""></a></div>
+            <div class="box"><a href=""><img src="./photos/image3.png" alt=""></a></div>
+            <div class="box"><a href=""><img src="./photos/image3.png" alt=""></a></div>
+        </div>
+    </header>
+</body>
+</html>
