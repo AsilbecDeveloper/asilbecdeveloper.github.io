@@ -342,9 +342,10 @@ section .grid-container .content:hover{
 }
 
 section .grid-container .content h1{
-    font-size: 50px;
+    font-size: 35px;
     font-family: 'Lexend Deca';
     color: rgba(250, 204, 21, 1);
+    text-align: center;
 }
 
 section .grid-container .item1 {
